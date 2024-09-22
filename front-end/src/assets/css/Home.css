@@ -1,38 +1,46 @@
-/* src/pages/Home.css */
-
 .home {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(to bottom right, #007bff, #003d7a);
-    color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .home h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .home p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
-  
-  .home a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #007bff;
-    border: none;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .home a:hover {
-    background-color: #cce7ff;
-    color: #003d7a;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #EA526F  0%, #5151e5 100%);
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.info {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #f0f0f0;
+}
+
+.cta-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
