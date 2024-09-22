@@ -1,0 +1,53 @@
+/* src/pages/SubmitApparel.css */
+
+.submit-apparel {
+    background-color: #fff;
+    padding: 30px 40px;
+    max-width: 600px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submit-apparel h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .submit-apparel form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submit-apparel form div {
+    margin-bottom: 15px;
+  }
+  
+  .submit-apparel label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+  .submit-apparel input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .submit-apparel button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-apparel button:hover {
+    background-color: #0056b3;
+  }
+  

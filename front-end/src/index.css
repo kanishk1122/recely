@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Set a theme */
+body {
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Styling links */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+/* Container for centering content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* General button styles */
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* General input field styles */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
